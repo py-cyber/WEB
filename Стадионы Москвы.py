@@ -1,5 +1,5 @@
 import requests
-from mapapi_PG import show_map
+from Samples.mapapi_PG import show_map
 
 map_request = "http://static-maps.yandex.ru/1.x/?ll=37.622513,55.753220&spn=0.25,0.25&l=map"
 response = requests.get(map_request)
